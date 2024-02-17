@@ -1,0 +1,22 @@
+.logo-container{
+    top: 170px;
+    left: 140%;
+    z-index: 0;
+    right: auto;
+	animation:fadeIn 1s 2s backwards;
+
+     
+    img{
+        margin-top: -30px;
+        height: 850px;
+        width: 650px;
+        
+    }
+}
+@media(max-width:900px){
+    .logo-container{
+        img{
+            display: none;
+        }
+    }
+}

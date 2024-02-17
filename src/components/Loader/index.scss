@@ -1,0 +1,30 @@
+.loader{
+    height: 100vh;
+    background-color: #022c43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+    .image-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+
+        img{
+            height: 150px;
+        }
+
+    }
+    .para-container{
+            margin-top: -1.8em;
+            letter-spacing: 3px;
+            font-size: 15px;
+            color: #fff;
+            font-weight: 300;
+        
+    }
+}

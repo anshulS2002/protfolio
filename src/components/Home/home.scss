@@ -1,0 +1,199 @@
+.container {
+	background-color: #022c43;
+	will-change: contents;
+	transform-style: preserve-3d;
+	animation: fadeIn 1s forwards;
+
+	.home_page {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex: 1;
+	}
+
+	.home_image {
+		display: inline-block;
+	}
+
+	.text-zone {
+		margin-left: 2em;
+		display: flex;
+		flex-direction: column;
+
+		.name-container {
+			display: flex;
+			align-items: baseline;
+			margin-top: -40px;
+		}
+
+		h1 {
+			font-size: 53px;
+			color: white;
+			font-family: "Coolvetica";
+			margin: 0;
+			font-weight: 400;
+
+			&::before {
+				content: '<h1>';
+				font-family: "La Belle Aurore";
+				color: #ffd700;
+				font-size: 18px;
+				position: relative;
+				opacity: 0.5;
+			}
+
+			&::after {
+				content: '<h1/>';
+				font-family: "La Belle Aurore";
+				color: #ffd700;
+				font-size: 18px;
+				opacity: 0.5;
+				margin-top: 18px;
+				margin-left: 5px;
+				animation: fadeIn 1s 1.7s backwards;
+			}
+		}
+
+		.logoA {
+			background-image: linear-gradient(20deg, rgb(255, 217, 0), #022c43);
+			background-clip: text;
+			color: transparent;
+			text-shadow: 0px 0px 0 rgb(243, 205, 0),
+				1px 1px 0 rgb(232, 194, 0),
+				2px 2px 0 rgb(220, 182, 0),
+				3px 3px 0 rgb(208, 170, 0),
+				4px 4px 0 rgb(196, 158, 0),
+				5px 5px 0 rgb(185, 147, 0),
+				6px 6px 0 rgb(173, 135, 0),
+				7px 7px 0 rgb(161, 123, 0),
+				8px 8px 7px rgba(2, 44, 67, 0.69),
+				8px 8px 1px rgba(2, 44, 67, 0.5),
+				0px 0px 7px rgba(2, 44, 67, .2);
+			margin-left: 0.2em;
+			margin-right: 0.07em;
+			font-size: 100px;
+			animation: rotateIn 1s linear both;
+			animation-delay: 1.2s;
+		}
+
+		.text-bottomContainer {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+		}
+
+		h2 {
+			color: #8d8d8d;
+			letter-spacing: 3px;
+			font-weight: 400;
+			font-family: sans-serif;
+			margin-top: 20px;
+			font-size: 11px;
+			animation: fadeIn 1s 1.2s backwards;
+		}
+
+		.flat-button {
+			color: #ffd700;
+			letter-spacing: 4px;
+			width: 120px;
+			text-align: center;
+			font-size: 15 px;
+			font-weight: 400;
+			font-family: sans-serif;
+			text-decoration: none;
+			border: 1px solid #ffd700;
+			padding: 10px 18px;
+			animation: fadeIn 1s 1.4s backwards;
+			margin-top: 25px;
+
+			&:hover {
+				background-color: #ffd700;
+				color: #022c43;
+			}
+		}
+	}
+
+}
+
+@media (max-width:800px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		height: 100vh;
+		width: 100%;
+
+		.home_page {
+			justify-content: center;
+		}
+
+		.text-zone {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-left: 0em;
+			height: auto;
+			margin-top: 0;
+
+			h1 {
+				font-size: 40px;
+
+				&::before {
+					position: relative;
+					margin-top: 10px;
+					left: 0;
+					opacity: 0.5;
+				}
+			}
+
+			.logoA {
+				font-size: 60px;
+			}
+
+			.name-container {
+				margin-top: -20px;
+			}
+		}
+
+		.flat-button {
+			margin-top: 20px;
+		}
+	}
+
+
+}
+
+.hiring_btn {
+	position: fixed;
+	background-color: white;
+	color: #022c43;
+	padding: 5px;
+	font-weight: 600;
+	text-decoration: none;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 16px;
+	bottom: 10px;
+	right: 20px;
+	animation: revolving 4s linear infinite;
+}
+
+
+@keyframes revolving {
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+@media(min-width:900px) {
+	.stars {
+		display: none;
+	}
+}

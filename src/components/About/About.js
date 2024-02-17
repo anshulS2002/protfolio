@@ -46,14 +46,12 @@ const About = () => {
 
 						<div className="about-para">
 							<p>
-								Hi, my name is Ansh Jhanwar and I'm a Final Year B.Tech student at MNIT with a passion for technology and web development. As a web developer, I have experience building websites and applications using various programming languages and frameworks. In addition to my technical skills, I also enjoy writing technical blogs to share my knowledge and insights with others.
+							I am Anshul Somani, a proactive and skilled graduate in Computer Science Engineering. My expertise lies in programming languages and web development technologies, with a strong focus on problem-solving and a passion for data structures and algorithms. I have successfully developed user-friendly websites and applications using React, Node.js, Django, and more. Certified in Microsoft Azure fundamentals and Firebase, I am well-prepared for entry-level roles in cloud computing.
 							</p>
 							<p>
-								I am highly curious about new technologies and always eager to explore different tech stacks. Whether it's front-end development, back-end development, or data science, I am always seeking opportunities to learn and grow my skills.
+							My experience as a Liaison Officer highlights my ability to navigate complexities, solve problems, and collaborate effectively. Alongside my academic achievements, including coding contests and sports representation at the district level, I bring a well-rounded skill set and dedication to every endeavor.
 							</p>
-							<p>
-								My blogs-<a href='https://ansh720.hashnode.dev' className='myblogs_link'>Hashnode Blog</a>
-							</p>
+							
 						</div>
 					</div>
 

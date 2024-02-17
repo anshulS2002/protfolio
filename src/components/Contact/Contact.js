@@ -100,18 +100,18 @@ const Contact = () => {
 								<div className="half"></div>
 							</div>
 							<div className="contact-links">
-								<a target="_blank" rel="noreferrer" href="mailto:personalansh07@gmail.com">
+								<a target="_blank" rel="noreferrer" href="mailto:anshulsomani735@gmail.com">
 									<MailOutlineIcon />
 								</a>
-								<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ansh-jhanwar-76b789217/">
+								<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/somanianshul02/">
 									<LinkedInIcon />
 								</a>
-								<a target="_blank" rel="noreferrer" href="https://github.com/Ansh7fe">
+								{/* <a target="_blank" rel="noreferrer" href="https://github.com/Ansh7fe">
 									<GitHubIcon />
 								</a>
 								<a target="_blank" rel="noreferrer" href="https://twitter.com/Anshjhanwar07">
 									<TwitterIcon />
-								</a>
+								</a> */}
 							</div>
 						</div>
 						<div className="info-map">
@@ -128,10 +128,10 @@ const Contact = () => {
 						</div>
 						<div className="map-wrap">
 							<div className="leaflet-container">
-								<MapContainer center={[26.8640, 75.8108]} zoom={13}>
+								<MapContainer center={[30.76899298412525, 76.57535043860612]} zoom={15}>
 									<TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 										url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-									<Marker position={[26.86275, 75.82056]}>
+									<Marker position={[30.76899298412525, 76.57535043860612]}>
 										<Popup>
 											Anshul lives here let's have a talk.
 										</Popup>

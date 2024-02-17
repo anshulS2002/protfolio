@@ -12,7 +12,7 @@ const ProjectItems = ({ title, desc, code, link, image, tech }) => {
                     {desc}
                 </p>
                 <div className="project_links">
-                    <a href={code} target="_blank" rel="noreferrer">Code</a>
+                    {/* <a href={code} target="_blank" rel="noreferrer">Code</a> */}
                     <a href={link} target="_blank" rel="noreferrer" className='visit-link'>Visit Project</a>
                 </div>
             </div>

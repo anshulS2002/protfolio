@@ -41,28 +41,28 @@ const Project = () => {
 					<ProjectItems key={projects[0].id}
 						title={projects[0].name}
 						desc={projects[0].desc}
-						code={projects[0].code}
+						// code={projects[0].code}
 						link={projects[0].link}
 						image={InqueImage}
 					/>
-					<ProjectItems key={projects[1].id}
+					{/* <ProjectItems key={projects[1].id}
 						title={projects[1].name}
 						desc={projects[1].desc}
 						code={projects[1].code}
 						link={projects[1].link}
 						image={MSTImage}
-					/>
-					<ProjectItems key={projects[2].id}
+					/> */}
+					{/* <ProjectItems key={projects[2].id}
 						title={projects[2].name}
 						desc={projects[2].desc}
 						code={projects[2].code}
 						link={projects[2].link}
 						image={CryptoverseImage}
-					/>
+					/> */}
 					<ProjectItems key={projects[3].id}
 						title={projects[3].name}
 						desc={projects[3].desc}
-						code={projects[3].code}
+						// code={projects[3].code}
 						link={projects[3].link}
 						image={PortfolioImage}
 					/>

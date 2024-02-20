@@ -119,7 +119,7 @@ const Contact = () => {
 							<br />
 							Chandidar University, Mohali
 							<br />
-							Jaipur
+							Punjab
 							<br />
 							<br />
 							<span>
